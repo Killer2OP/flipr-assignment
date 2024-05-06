@@ -171,8 +171,8 @@ export function Dashboard() {
                   <TabsContent value="city">
                     <div className="flex items-center gap-4 mb-4">
                       <Label htmlFor="city">Filter by City:</Label>
-                      <Select className="w-[200px]" id="city">
-                        <SelectTrigger>
+                      <Select>
+                        <SelectTrigger className="w-[200px]" id="city">
                           <SelectValue placeholder="Select a city" />
                         </SelectTrigger>
                         <SelectContent>
@@ -248,7 +248,7 @@ export function Dashboard() {
                           <TableCell>2023-04-15</TableCell>
                           <TableCell>$250.00</TableCell>
                           <TableCell>
-                            <Badge variant="success">Delivered</Badge>
+                            <Badge variant="outline">Delivered</Badge>
                           </TableCell>
                         </TableRow>
                         <TableRow>
@@ -257,7 +257,7 @@ export function Dashboard() {
                           <TableCell>2023-03-22</TableCell>
                           <TableCell>$150.00</TableCell>
                           <TableCell>
-                            <Badge variant="warning">Pending</Badge>
+                            <Badge variant="outline">Pending</Badge>
                           </TableCell>
                         </TableRow>
                         <TableRow>
@@ -266,7 +266,7 @@ export function Dashboard() {
                           <TableCell>2023-02-08</TableCell>
                           <TableCell>$350.00</TableCell>
                           <TableCell>
-                            <Badge variant="success">Delivered</Badge>
+                            <Badge variant="outline">Delivered</Badge>
                           </TableCell>
                         </TableRow>
                       </TableBody>
