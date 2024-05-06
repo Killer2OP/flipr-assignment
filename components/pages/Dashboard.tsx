@@ -9,11 +9,11 @@ import { Label } from "@/components/ui/label"
 import { SelectValue, SelectTrigger, SelectItem, SelectContent, Select } from "@/components/ui/select"
 import { Badge } from "@/components/ui/badge"
 
-import BarChart from '../icons/Barchart';
-import RupeeSignIcon from '../icons/RupeeSignIcon';
-import LineChart from '../icons/LineChart';
-import PencilIcon from '../icons/PencilIcon';
-import UsersIcon from '../icons/UsersIcon';
+import BarChart from '@/components/icons/Barchart';
+import RupeeSignIcon from '@/components/icons/RupeeSignIcon';
+import LineChart from '@/components/icons/LineChart';
+import PencilIcon from '@/components/icons/PencilIcon';
+import UsersIcon from '@/components/icons/UsersIcon';
 
 
 export function Dashboard() {
