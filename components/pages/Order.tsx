@@ -1,4 +1,4 @@
-import FilterIcon from "../icons/FilterIcon"
+import FilterIcon from "@/components/icons/FilterIcon"
 
 import { Button } from "@/components/ui/button"
 import { DropdownMenuTrigger, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
